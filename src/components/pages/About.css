@@ -1,0 +1,62 @@
+.about-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .about-content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .image-container {
+    flex: 1;
+    overflow: hidden;
+  }
+  
+  .profile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .info-container {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .about-title {
+    font-size: 3em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .about-description {
+    margin-bottom: 30px;
+    line-height: 1.6;
+  }
+  
+  .personal-info {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+  }
+  
+  .info-item {
+    display: contents;
+  }
+  
+  .info-label {
+    font-weight: bold;
+  }
+  
+  .info-value {
+    margin-left: 10px;
+  }

@@ -1,0 +1,61 @@
+.home-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 50%; /* Membatasi lebar teks agar tidak terlalu panjang */
+}
+
+.hello-text {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.name-text {
+    font-size: 64px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    white-space: nowrap; /* Mencegah teks turun ke baris berikutnya */
+}
+
+.role-text {
+    font-size: 30px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.image-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-image {
+    width: 100px; /* Ukuran gambar sedang */
+    height: auto; /* Menjaga rasio gambar */
+    border-radius: 50%;
+}
+
+/* Responsif untuk perangkat yang lebih kecil */
+@media (max-width: 768px) {
+    .home-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .image-section {
+        margin-top: 20px;
+    }
+}

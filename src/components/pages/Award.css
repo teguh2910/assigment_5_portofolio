@@ -1,0 +1,45 @@
+.award-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+  }
+  
+  .award-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .award-item {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .award-item h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .award-item h4 {
+    font-size: 1em;
+    font-weight: normal;
+    margin-bottom: 5px;
+  }
+  
+  .award-item .company {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .award-item p {
+    font-size: 0.9em;
+    line-height: 1.4;
+  }
